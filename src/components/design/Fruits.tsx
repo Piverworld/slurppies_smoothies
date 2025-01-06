@@ -1,13 +1,11 @@
-import {
-  pawpaw,
-  orange,
-  banana,
-  grapes,
-  apple,
-  avocado,
-  leaf,
-} from "../../assets";
+import avocado from "../../assets/svg/avocado.svg";
 import React from "react";
+import leaf from "../../assets/svg/leaf.svg";
+import pawpaw from "../../assets/svg/pawpaw.svg";
+import orange from "../../assets/svg/orange.svg";
+import banana from "../../assets/svg/banana.svg";
+import apple from "../../assets/svg/apple.svg";
+import grapes from "../../assets/svg/grape.svg";
 
 interface FruitProps {
   src: string;

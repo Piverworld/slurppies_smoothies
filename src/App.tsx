@@ -1,4 +1,3 @@
-import { Check } from "lucide-react";
 import Hero from "./components/Hero";
 import MangoSection from "./components/MangoSection";
 import Navbar from "./components/Navbar";

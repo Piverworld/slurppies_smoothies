@@ -1,7 +1,7 @@
 import React from "react";
 import Fruits from "./design/Fruits";
 import Leaves from "./design/Leaves";
-import smallFlower from "../assets/singleLeaf.png";
+import smallFlower from "../assets/svg/flower-small.svg";
 import heroImg from "../assets/hero_img.png";
 
 /**

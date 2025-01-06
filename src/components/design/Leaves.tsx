@@ -1,5 +1,11 @@
 import React from "react";
-import { leaf, pawpaw, orange, banana, apple, BigLeaves } from "../../assets";
+import BigLeaves from "../../assets/svg/coloured-leaves.svg";
+import leaf from "../../assets/svg/leaf.svg";
+import pawpaw from "../../assets/svg/pawpaw.svg";
+import orange from "../../assets/svg/orange.svg";
+import banana from "../../assets/svg/banana.svg";
+import apple from "../../assets/svg/apple.svg";
+
 /**
  * A strongly-typed functional component that renders a "Leaves" div.
  *
