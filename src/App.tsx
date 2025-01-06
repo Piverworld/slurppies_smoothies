@@ -6,6 +6,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import "./index.css";
 import CheckMenu from "./components/CheckMenu";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MangoSection />
       <CheckMenu />
       <Contact />
+      <Footer />
     </div>
   );
 }
