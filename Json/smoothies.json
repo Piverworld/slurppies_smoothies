@@ -1,0 +1,99 @@
+{
+  "Smoothies": [
+    {
+      "id": 1,
+      "name": "Banana Crunch",
+      "ingredients": ["Mint", "Chocolate", "Milk"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 2,
+      "name": "Love Spell",
+      "ingredients": ["Banana", "Strawberry", "Milk", "Ginger"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 3,
+      "name": "Tropic Paradise",
+      "ingredients": [
+        "Watermelon",
+        "Apple",
+        "Ginger",
+        "Pineapple",
+        "Banana",
+        "Milk"
+      ],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 4,
+      "name": "Oreo Nana",
+      "ingredients": ["Banana", "Oreo", "Milk"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 5,
+      "name": "Wicked",
+      "ingredients": ["Banana", "Mango", "Milk"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 6,
+      "name": "Oatmeal",
+      "ingredients": ["Banana", "Oat", "Milk", "Dark Chocolate"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 7,
+      "name": "Coco Pine",
+      "ingredients": ["Coconut", "Milk", "Pineapple"],
+      "smallPrice": 20,
+      "largePrice": 25
+    }
+  ],
+  "Milkshakes": [
+    {
+      "id": 1,
+      "name": "Banana Shake",
+      "ingredients": ["Banana", "Milk"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 2,
+      "name": "Strawberry Shake",
+      "ingredients": ["Strawberry", "Milk"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 2,
+      "name": "Oreo Shake",
+      "ingredients": ["Oreo", "Milk", "Ice Cream"],
+      "smallPrice": 20,
+      "largePrice": 25
+    }
+  ],
+  "Specials": [
+    {
+      "id": 1,
+      "name": "Beetboost",
+      "ingredients": ["Watermelon", "Beetroot", "Banana", "Pawpaw"],
+      "smallPrice": 20,
+      "largePrice": 25
+    },
+    {
+      "id": 2,
+      "name": "Manste",
+      "ingredients": ["Banana", "Carrot", "Beetroot"],
+      "smallPrice": 20,
+      "largePrice": 25
+    }
+  ]
+}

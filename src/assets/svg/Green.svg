@@ -1,0 +1,18 @@
+<svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/flash">
+<rect y="0.710938" width="32" height="32" rx="16" fill="url(#paint0_linear_117_731)"/>
+<g id="vuesax/linear/flash_2">
+<g id="flash">
+<g id="SVGRepo_iconCarrier">
+<path id="Vector" d="M19.75 13.7109C13 15.2109 11.425 19.8384 9.865 23.7159L11.2825 24.2109L12.0325 22.4859C12.3421 22.6084 12.6682 22.6842 13 22.7109C21.25 22.7109 23.5 9.96094 23.5 9.96094C22.75 11.4609 17.5 11.6484 13.75 12.3984C10 13.1484 8.5 16.3359 8.5 17.8359C8.60367 18.8958 9.06682 19.8882 9.8125 20.6484C12.25 13.7109 19.75 13.7109 19.75 13.7109Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_117_731" x1="2.15046" y1="7.55064" x2="28.3827" y2="25.296" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00DB1A"/>
+<stop offset="1" stop-color="#00A013"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,76 @@
+import {
+  pawpaw,
+  orange,
+  banana,
+  grapes,
+  apple,
+  avocado,
+  leaf,
+} from "../../assets";
+import React from "react";
+
+interface FruitProps {
+  src: string;
+  alt: string;
+  className?: string;
+}
+
+/**
+ * Fruits component renders a collection of fruit images.
+ *
+ * @returns {JSX.Element} A div containing fruit images.
+ */
+const Fruits: React.FC = (): JSX.Element => {
+  const fruitImages: FruitProps[] = [
+    {
+      src: orange,
+      alt: "orange",
+      className: "relative top-[0rem] left-[2.7rem]",
+    },
+    {
+      src: leaf,
+      alt: "leaf",
+      className: "relative top-[0rem] left-[8.8rem]",
+    },
+    {
+      src: avocado,
+      alt: "avocado",
+      className: "relative top-[1.7rem] left-[4.7rem]",
+    },
+    {
+      src: pawpaw,
+      alt: "pawpaw",
+      className: "relative top-[3.4rem] left-[1.4rem]",
+    },
+    {
+      src: apple,
+      alt: "apple",
+      className: "relative top-[4.7rem] left-[5.7rem]",
+    },
+    {
+      src: grapes,
+      alt: "grapes",
+      className: "relative top-[6rem] left-[2.7rem]",
+    },
+    {
+      src: banana,
+      alt: "banana",
+      className: "relative top-[7.7rem] left-[5.7rem]",
+    },
+  ];
+
+  return (
+    <div className="absolute left-0 space-x-2 top-5">
+      {fruitImages.map((fruit, index) => (
+        <img
+          key={index}
+          src={fruit.src}
+          alt={fruit.alt}
+          className={`${fruit.className} sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-16 lg:w-16`}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Fruits;

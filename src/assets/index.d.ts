@@ -1,0 +1,24 @@
+declare module "../../assets" {
+  export const pawpaw: string;
+  export const orange: string;
+  export const banana: string;
+  export const grapes: string;
+  export const apple: string;
+  export const avocado: string;
+  export const leaf: string;
+  export const BigLeaves: string;
+  export const ContactBg: string;
+  export const smallFlower: string;
+  export const sectionStar: string;
+  export const MenuIcon: string;
+  export const sendMessageIcon: string;
+  export const mangoSectionBG: string;
+  export const strawberry: string;
+  export const pineapple: string;
+  export const heroImg: string;
+  export const strawberryGlass: string;
+  export const singleLeaf: string;
+  export const fullLeaves: string;
+  export const PinkArrow: string;
+  export const GreenArrow: string;
+}
