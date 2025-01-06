@@ -18,7 +18,7 @@ const Greenery: React.FC = (): JSX.Element => {
         <img
           src={fullLeaves}
           alt="Two leaves"
-          className="absolute w-64 left-full h-65 top-[28.6rem]"
+          className="absolute w-64 left-[99%] h-65 top-[28.6rem]"
         />
       </div>
     </div>

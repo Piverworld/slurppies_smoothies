@@ -55,10 +55,12 @@ const CheckMenu: React.FC = () => {
               refreshing sip. Your daily dose of happiness and great health in a
               glass.{" "}
             </p>
-            <button className="flex flex-row gap-2 px-4 py-2 text-white font-normal rounded-full border-[.25rem] border-[#FFCCEB] bg-slurppiespink">
-              <Link to="/menu" />
+            <Link
+              id="btn"
+              to="/menu"
+              className="flex flex-row gap-2 px-4 py-2 text-white hover:text-white font-normal rounded-full border-[.25rem] border-[#FFCCEB] bg-slurppiespink">
               Check Our Menu <img src={MenuIcon} />
-            </button>
+            </Link>
           </div>
           <div
             className="col-start-3 rounded-[1rem] overflow-hidden h-fit"

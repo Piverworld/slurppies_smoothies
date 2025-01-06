@@ -10,7 +10,7 @@ const PineappleSection: React.FC = () => {
         <div className="flex flex-col items-start justify-start w-4/12 px-6 py-5 bg-white rounded-xl">
           <img
             src={pineapple}
-            alt=""
+            alt="image of a pineapple"
           />
           <h4 className="font-bold text-[1.5rem] text-headingtextblack">
             People's Choice

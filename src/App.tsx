@@ -5,6 +5,7 @@ import PineappleSection from "./components/PineappleSection";
 import WhyChooseUs from "./components/WhyChooseUs";
 import "./index.css";
 import CheckMenu from "./components/CheckMenu";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <PineappleSection />
       <MangoSection />
       <CheckMenu />
+      <Contact />
     </div>
   );
 }

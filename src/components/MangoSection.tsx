@@ -4,8 +4,8 @@ import mangoSectionImg from "../assets/mango_section_img.png";
 import "../index.css";
 const MangoSection: React.FC = () => {
   return (
-    <section className="block w-full bg-white h-fit py-[4.5rem] px-[15rem]">
-      <div className="container max-w-[1440px] mx-auto flex flex-row items-center justify-start h-fit">
+    <section className="block w-full bg-white py-[4.5rem] px-[15rem]">
+      <div className="container max-w-[1440px] mx-auto flex flex-row items-center justify-start lg:h-[550px]">
         <div className="flex flex-col items-start justify-start w-7/12">
           <img
             src={mangoSectionImg}
