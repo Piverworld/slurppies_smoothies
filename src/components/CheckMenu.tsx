@@ -3,7 +3,6 @@ import menuBg from "../assets/menuBg.png";
 import sectionStar from "../assets/svg/section_star.svg";
 import MenuIcon from "../assets/svg/menu_icon.svg";
 import BeetrootImg from "../assets//fruit-images/beetroot.jpg";
-import Energy from "../assets/svg/Energy.svg";
 import { Link } from "react-router-dom";
 import Green from "../assets/svg/Green.svg";
 const CheckMenu: React.FC = () => {

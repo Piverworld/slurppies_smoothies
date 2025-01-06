@@ -1,8 +1,8 @@
 import React from "react";
 import Fruits from "./design/Fruits";
 import Leaves from "./design/Leaves";
-import { smallFlower } from "../assets";
-import { heroImg } from "../assets";
+import smallFlower from "../assets/singleLeaf.png";
+import heroImg from "../assets/hero_img.png";
 
 /**
  * A strongly-typed functional component that renders a "Hero" section.
