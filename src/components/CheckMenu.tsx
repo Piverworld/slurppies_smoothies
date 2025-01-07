@@ -30,7 +30,7 @@ const CheckMenu: React.FC = () => {
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
               <div className="">
-                <div className="text-[#787878] flex flex-row gap-2 font-[500]">
+                <div className="text-[#787878] flex flex-row justify-between gap-2 font-[500]">
                   <p>GHS 25 (450ml)</p>
                   <p>GHS 20 (350ml)</p>
                 </div>
@@ -80,7 +80,7 @@ const CheckMenu: React.FC = () => {
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
               <div className="">
-                <div className="text-[#787878] flex flex-row gap-2 font-[500]">
+                <div className="text-[#787878] flex flex-row justify-between gap-2 font-[500]">
                   <p>GHS 25 (450ml)</p>
                   <p>GHS 20 (350ml)</p>
                 </div>
