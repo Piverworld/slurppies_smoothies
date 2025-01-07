@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import React from "react";
 
 /**
@@ -6,7 +8,12 @@ import React from "react";
  * @returns A JSX element representing the Menu page.
  */
 const Menu: React.FC = () => {
-  return <div>Menu</div>;
+  return (
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 };
 
 export default Menu;

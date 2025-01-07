@@ -11,7 +11,7 @@ import GreenArrow from "../assets/svg/Arrow 6.svg";
  */
 const WhyChooseUs: React.FC = (): JSX.Element => {
   return (
-    <section className="block w-full bg-white h-fit py-[4.5rem] px-[15rem]">
+    <section className="block w-full bg-gray-50 h-fit py-[4.5rem] px-[15rem]">
       <Greenery />
       <div className="container max-w-[1440px] mx-auto flex flex-col items-start justify-between">
         <div className="flex flex-row items-center justify-between w-full">
