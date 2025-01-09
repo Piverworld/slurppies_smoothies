@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import contactHeader from "@/assets/contact-header.png?url";
+import contactHeader from "@/assets/contact-header.png";
 import Fruits from "@/components/design/Fruits";
 import messageArrow from "../assets/svg/direct-right.svg";
-
+import contactBg from "@/assets/svg/contact_section.svg";
 const Contact: React.FC = () => {
   return (
     <div>
@@ -12,7 +12,11 @@ const Contact: React.FC = () => {
       <section
         className="block w-full bg-white bg-center bg-no-repeat bg-cover  lg:h-[600px] h-[250px]"
         style={{ backgroundImage: `url(${contactHeader}})` }}></section>
-      <section className="flex flex-row w-full bg-center items-center justify-center bg-no-repeat  lg:-mt-[16.48rem] min-h-[64rem] overflow-visible bg-slurppiespink lg:bg-transparent  lg:bg-[url(src/assets/svg/contact_section.svg)]">
+      <section
+        className={`flex flex-row w-full bg-center items-center justify-center bg-no-repeat  lg:-mt-[16.48rem] min-h-[64rem] overflow-visible bg-slurppiespink lg:bg-transparent`}
+        style={{
+          backgroundImage: `url(${contactBg})`,
+        }}>
         <Fruits position="hidden xl:block relative h-fit left-0" />
         <div className="container max-w-[1440px] mx-auto py-[2.5rem] lg:py-[4.5rem] h-fit w-full ">
           <div className="grid w-full lg:justify-between justify-items-center lg:grid-cols-2">
