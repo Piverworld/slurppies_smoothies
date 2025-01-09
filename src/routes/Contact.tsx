@@ -12,7 +12,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from "@emailjs/browser";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
-import { color } from "framer-motion";
 
 const Contact: React.FC = () => {
   const isDesktop = useMediaQuery({
@@ -44,8 +43,6 @@ const Contact: React.FC = () => {
       message: e.target.value,
     });
   };
-
-  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {};
 
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
