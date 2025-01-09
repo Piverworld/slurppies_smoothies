@@ -12,7 +12,7 @@ import apple from "../../assets/svg/apple.svg";
  * @returns {JSX.Element} A JSX element representing the Leaves div.
  */
 
-const Leaves: React.FC = (): JSX.Element => {
+const Leaves: React.FC<{ position?: string }> = ({ position }): JSX.Element => {
   const fruitImages = [
     {
       src: pawpaw,
@@ -41,7 +41,7 @@ const Leaves: React.FC = (): JSX.Element => {
     },
   ];
   return (
-    <div className="absolute right-0 space-x-2 top-5">
+    <div className={`${position} right-0`}>
       {fruitImages.map((fruit, index) => (
         <img
           key={index}

@@ -18,7 +18,7 @@ interface FruitProps {
  *
  * @returns {JSX.Element} A div containing fruit images.
  */
-const Fruits: React.FC = (): JSX.Element => {
+const Fruits: React.FC<{ position?: string }> = ({ position }): JSX.Element => {
   const fruitImages: FruitProps[] = [
     {
       src: orange,
@@ -58,13 +58,13 @@ const Fruits: React.FC = (): JSX.Element => {
   ];
 
   return (
-    <div className="absolute left-0 space-x-2 top-5">
+    <div className={`${position}`}>
       {fruitImages.map((fruit, index) => (
         <img
           key={index}
           src={fruit.src}
           alt={fruit.alt}
-          className={`${fruit.className} sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-16 lg:w-16`}
+          className={`${fruit.className} sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-14 lg:w-14`}
         />
       ))}
     </div>

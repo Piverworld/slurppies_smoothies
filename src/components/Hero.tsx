@@ -13,8 +13,8 @@ const Hero: React.FC = (): JSX.Element => {
   return (
     <section className="block w-full bg-white h-fit py-[4.5rem] px-[15rem]">
       <div className="container max-w-[1440px] mx-auto flex flex-row items-center justify-between">
-        <Fruits />
-        <Leaves />
+        <Fruits position="absolute top-24 left-0" />
+        <Leaves position="absolute top-24" />
         <div className="flex flex-col items-start justify-start gap-5 h-fit">
           <div className="flex flex-row items-center justify-center space-x-2">
             <img

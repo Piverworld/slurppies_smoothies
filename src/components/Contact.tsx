@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           <div className="flex flex-col items-center justify-center">
             <img src={sectionStar} />
           </div>
-          <h4 className="font-bold text-[3.5rem] text-headingtextblack text-center max-w-[41rem]">
+          <h4 className="font-bold text-[2.5rem] text-headingtextblack text-center max-w-[41rem]">
             <span className="text-slurppiespink font-[Pacifico]">
               Got Questions?{" "}
             </span>
