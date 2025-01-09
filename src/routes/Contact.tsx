@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
       <Navbar />
       <section
         className="block w-full bg-white bg-center bg-no-repeat bg-cover  lg:h-[600px] h-[250px]"
-        style={{ backgroundImage: `url(${contactHeader}})` }}></section>
+        style={{ backgroundImage: `url(${contactHeader})` }}></section>
       <section
         className={`flex flex-row w-full bg-center items-center justify-center bg-no-repeat  lg:-mt-[16.48rem] min-h-[64rem] overflow-visible bg-slurppiespink lg:bg-transparent`}
         style={{
