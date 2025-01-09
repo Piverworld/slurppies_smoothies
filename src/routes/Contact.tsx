@@ -12,6 +12,9 @@ import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from "@emailjs/browser";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
+import CallUs from "../assets/svg/CallUs.svg";
+import EmailUs from "../assets/svg/EmailUs.svg";
+import LocateUs from "../assets/svg/FindUs.svg";
 
 const Contact: React.FC = () => {
   const isDesktop = useMediaQuery({
@@ -136,8 +139,8 @@ const Contact: React.FC = () => {
               <div className="flex flex-row items-start justify-between gap-4 mb-4 max-sm:flex-col max-sm:items-center h-fit lg:flex-col lg:items-start">
                 <div className="flex flex-col items-center justify-start gap-2 mt-4 lg:items-start lg:flex-row">
                   <img
-                    src="src/assets/svg/CallUs.svg"
-                    alt=""
+                    src={CallUs}
+                    alt="Icon of Phone"
                   />
                   <div className="flex flex-col gap-1">
                     <h6 className="text-[1.15rem] font-bold">Call Us</h6>
@@ -150,8 +153,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="flex flex-col items-center justify-start gap-2 mt-4 lg:items-start lg:flex-row">
                   <img
-                    src="src/assets/svg/EmailUs.svg"
-                    alt=""
+                    src={EmailUs}
+                    alt="Icon of Email"
                   />
                   <div className="flex flex-col gap-1">
                     <h6 className="text-[1.15rem] font-bold">Email Us</h6>
@@ -164,7 +167,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="flex flex-col items-center justify-start gap-2 mt-4 lg:items-start lg:flex-row">
                   <img
-                    src="src/assets/svg/FindUs.svg"
+                    src={LocateUs}
                     alt=""
                   />
                   <div className="flex flex-col gap-1">
@@ -272,11 +275,11 @@ const Contact: React.FC = () => {
                     required></textarea>
                 </div>
                 <ReCAPTCHA
+                  sitekey="6Lfds7IqAAAAAOR2DSrIjNA6MNye5TYJvzPgHZua"
                   ref={recaptchaRef}
-                  sitekey="6Ld9xrIqAAAAAMOB5-S-bQ-CxATcgzp-dyqt9HHt"
                 />
                 {recaptchaMessage && (
-                  <p className="text-red-500">{recaptchaMessage}</p>
+                  <p className="italic text-white">{recaptchaMessage}</p>
                 )}
                 <button
                   type="submit"
