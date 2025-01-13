@@ -54,8 +54,8 @@ const Menu: React.FC = () => {
                 />
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="hidden xl:block" />
-            <CarouselNext className="hidden xl:block" />
+            <CarouselPrevious className="hidden 2xl:block" />
+            <CarouselNext className="hidden 2xl:block" />
           </Carousel>
         </div>
       </section>
