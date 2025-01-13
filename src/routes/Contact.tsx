@@ -231,6 +231,7 @@ const Contact: React.FC = () => {
                       padding: "24px 8px",
                       borderRadius: "0 .75rem .75rem 0",
                       background: "transparent",
+                      fontSize: "1rem",
                     }}
                     countrySelectorStyleProps={{
                       style: {},
@@ -274,13 +275,14 @@ const Contact: React.FC = () => {
                     className="w-full bg-transparent px-3 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#fff]"
                     required></textarea>
                 </div>
+                {recaptchaMessage && (
+                  <p className="italic text-white">{recaptchaMessage}</p>
+                )}
                 <ReCAPTCHA
                   sitekey="6Lfds7IqAAAAAOR2DSrIjNA6MNye5TYJvzPgHZua"
                   ref={recaptchaRef}
                 />
-                {recaptchaMessage && (
-                  <p className="italic text-white">{recaptchaMessage}</p>
-                )}
+
                 <button
                   type="submit"
                   className="bg-slurppiespink lg:bg-white text-white lg:text-slurppiespink rounded-xl px-[1.5rem] py-[.75rem] flex flex-row items-center gap-2 pointer border-white border-2 lg:border-slurppiespink lg:border-2 cursor-pointer">

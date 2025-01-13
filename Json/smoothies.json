@@ -3,97 +3,169 @@
     {
       "id": 1,
       "name": "Banana Crunch",
-      "ingredients": ["Mint", "Chocolate", "Milk"],
+      "ingredients": ["Banana, ", "Cornflakes, ", "Milk "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
       "id": 2,
       "name": "Love Spell",
-      "ingredients": ["Banana", "Strawberry", "Milk", "Ginger"],
+      "ingredients": ["Banana, ", "Strawberry, ", "Milk, ", "Ginger "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Green",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Green.svg"
     },
     {
       "id": 3,
       "name": "Tropic Paradise",
       "ingredients": [
-        "Watermelon",
-        "Apple",
-        "Ginger",
-        "Pineapple",
-        "Banana",
-        "Milk"
+        "Watermelon, ",
+        "Apple, ",
+        "Ginger, ",
+        "Pineapple, ",
+        "Banana, ",
+        "Milk "
       ],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Green",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Green.svg"
     },
     {
       "id": 4,
-      "name": "Oreo Nana",
-      "ingredients": ["Banana", "Oreo", "Milk"],
+      "name": "OreoNana",
+      "ingredients": ["Banana, ", "Oreo, ", "Milk "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
       "id": 5,
       "name": "Wicked",
-      "ingredients": ["Banana", "Mango", "Milk"],
+      "ingredients": ["Banana, ", "Mango, ", "Milk "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
       "id": 6,
       "name": "Oatmeal",
-      "ingredients": ["Banana", "Oat", "Milk", "Dark Chocolate"],
+      "ingredients": ["Banana, ", "Oat, ", "Milk, ", "Dark Chocolate "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
       "id": 7,
-      "name": "Coco Pine",
-      "ingredients": ["Coconut", "Milk", "Pineapple"],
+      "name": "CocoPine",
+      "ingredients": ["Coconut, ", "Milk, ", "Pineapple "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     }
   ],
   "Milkshakes": [
     {
       "id": 1,
       "name": "Banana Shake",
-      "ingredients": ["Banana", "Milk"],
+      "ingredients": ["Banana, ", "Milk "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/fruit-images/beetroot.jpg"
     },
     {
       "id": 2,
       "name": "Strawberry Shake",
-      "ingredients": ["Strawberry", "Milk"],
+      "ingredients": ["Strawberry, ", "Milk "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/fruit-images/beetroot.jpg"
     },
     {
       "id": 2,
       "name": "Oreo Shake",
-      "ingredients": ["Oreo", "Milk", "Ice Cream"],
+      "ingredients": ["Oreo, ", "Milk, ", "IceCream "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/fruit-images/beetroot.jpg"
     }
   ],
   "Specials": [
     {
       "id": 1,
       "name": "Beetboost",
-      "ingredients": ["Watermelon", "Beetroot", "Banana", "Pawpaw"],
+      "ingredients": ["Watermelon, ", "Beetroot, ", "Banana ", "Pawpaw"],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Green",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
       "id": 2,
       "name": "Manste",
-      "ingredients": ["Banana", "Carrot", "Beetroot"],
+      "ingredients": ["Banana, ", "Carrot, ", "Beetroot "],
       "smallPrice": 20,
-      "largePrice": 25
+      "largePrice": 25,
+      "category": "Green",
+      "categoryColor": "00B615",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Green.svg"
+    }
+  ],
+  "Popular": [
+    {
+      "id": 1,
+      "name": "Banana Crunch",
+      "ingredients": ["Banana, ", "Cornflakes, ", "Milk "],
+      "smallPrice": 20,
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
+    },
+    {
+      "id": 2,
+      "name": "Oreo Nana",
+      "ingredients": ["Banana, ", "Oreo, ", "Milk "],
+      "smallPrice": 20,
+      "largePrice": 25,
+      "category": "Energy",
+      "categoryColor": "E0B000",
+      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "categoryImgSrc": "src/assets/svg/Energy.svg"
     }
   ]
 }

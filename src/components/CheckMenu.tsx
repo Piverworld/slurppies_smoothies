@@ -24,19 +24,14 @@ const CheckMenu: React.FC = () => {
               src={Green}
               className="relative -top-[14.85rem] left-[.85rem]"
             />
-            <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.35rem] -mt-[2.08rem]">
+            <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
               <p className="font-normal uppercase text-[#00b616] text-[.875rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
-              <div className="">
-                <div className="text-[#787878] flex flex-row justify-between gap-2 font-[500]">
-                  <p>GHS 25 (450ml)</p>
-                  <p>GHS 20 (350ml)</p>
-                </div>
-                <div className="text-[#787878]">
-                  <p>Watermelon, Beetroot, Banana, Pawpaw</p>
-                </div>
+
+              <div className="text-[#787878]">
+                <p>Watermelon, Beetroot, Banana, Pawpaw</p>
               </div>
             </div>
           </div>
@@ -74,19 +69,13 @@ const CheckMenu: React.FC = () => {
               src={Green}
               className="relative -top-[14.85rem] left-[.85rem]"
             />
-            <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.35rem] -mt-[2.08rem]">
+            <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
               <p className="font-normal uppercase text-[#00b616] text-[.875rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
-              <div className="">
-                <div className="text-[#787878] flex flex-row justify-between gap-2 font-[500]">
-                  <p>GHS 25 (450ml)</p>
-                  <p>GHS 20 (350ml)</p>
-                </div>
-                <div className="text-[#787878]">
-                  <p>Watermelon, Beetroot, Banana, Pawpaw</p>
-                </div>
+              <div className="text-[#787878]">
+                <p>Watermelon, Beetroot, Banana, Pawpaw</p>
               </div>
             </div>
           </div>
