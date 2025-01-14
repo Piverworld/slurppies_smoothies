@@ -121,7 +121,7 @@ const Menu: React.FC = () => {
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
-            smoothie={MilkshakeData.Smoothies}
+            smoothie={MilkshakeData.Milkshakes}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
             carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5"
             cardImageStyle="h-[15rem] object-cover object-center"
@@ -145,7 +145,7 @@ const Menu: React.FC = () => {
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
-            smoothie={SpecialData.Smoothies}
+            smoothie={SpecialData.Specials}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
             carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5"
             cardImageStyle="h-[15rem] object-cover object-center"
