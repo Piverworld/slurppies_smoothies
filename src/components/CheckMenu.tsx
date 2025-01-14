@@ -2,9 +2,9 @@ import React from "react";
 import menuBg from "../assets/menuBg.png";
 import sectionStar from "../assets/svg/section_star.svg";
 import MenuIcon from "../assets/svg/menu_icon.svg";
-import BeetrootImg from "../assets//fruit-images/beetroot.jpg";
+import BeetrootImg from "/fruit-images/beetroot.jpg";
 import { Link } from "react-router-dom";
-import Green from "../assets/svg/Green.svg";
+import Green from "/svg/Energy.svg";
 const CheckMenu: React.FC = () => {
   return (
     <section
@@ -25,7 +25,7 @@ const CheckMenu: React.FC = () => {
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
-              <p className="font-normal uppercase text-[#00b616] text-[.875rem]">
+              <p className="font-normal uppercase text-[#E0B000] text-[.875rem] tracking-[.12rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
@@ -70,7 +70,7 @@ const CheckMenu: React.FC = () => {
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
-              <p className="font-normal uppercase text-[#00b616] text-[.875rem]">
+              <p className="font-normal uppercase text-[#E0B000] font-bold text-[.875rem] tracking-[.12rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>

@@ -36,18 +36,19 @@ const MenuCard: React.FC<SmoothieProps> = ({
             <Card className={`${smoothieCardStyle} overflow-hidden`}>
               <CardHeader className="p-0 space-y-0">
                 <img
-                  src={smoothies.categoryImgSrc}
+                  src={`/svg/${smoothies.categoryImgSrc}`}
                   className="absolute ml-3 top-3"
                 />
                 <img
-                  src={smoothies.smoothieImgSrc}
+                  src={`/fruit-images/${smoothies.smoothieImgSrc}`}
                   className={`${cardImageStyle}`}
                 />
               </CardHeader>
               <CardContent className="flex flex-col justify-between w-full h-full px-3 py-2 ">
                 <div className={`${smoothieCardDetails}`}>
                   <p
-                    className={`text-[#${smoothies.categoryColor}] uppercase tracking-[.0875rem]`}>
+                    className={` uppercase tracking-[.12rem] font-bold`}
+                    style={{ color: `#${smoothies.categoryColor}` }}>
                     {smoothies.category}
                   </p>
                   <h4 className="text-[1.6rem] lg:text-[2rem] font-bold">

@@ -8,7 +8,7 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
+      "smoothieImgSrc": "beetroot.jpg",
       "categoryImgSrc": "src/assets/svg/Energy.svg"
     },
     {
@@ -18,9 +18,9 @@
       "smallPrice": 20,
       "largePrice": 25,
       "category": "Green",
-      "categoryColor": "00B615",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Green.svg"
+      "categoryColor": "149323",
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Green.svg"
     },
     {
       "id": 3,
@@ -37,8 +37,8 @@
       "largePrice": 25,
       "category": "Green",
       "categoryColor": "00B615",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Green.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Green.svg"
     },
     {
       "id": 4,
@@ -48,8 +48,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 5,
@@ -59,8 +59,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 6,
@@ -70,8 +70,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 7,
@@ -81,8 +81,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     }
   ],
   "Milkshakes": [
@@ -94,8 +94,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 2,
@@ -105,8 +105,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 3,
@@ -116,8 +116,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     }
   ],
   "Specials": [
@@ -128,9 +128,9 @@
       "smallPrice": 20,
       "largePrice": 25,
       "category": "Green",
-      "categoryColor": "00B615",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Green.svg"
+      "categoryColor": "149323",
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Green.svg"
     },
     {
       "id": 2,
@@ -139,9 +139,9 @@
       "smallPrice": 20,
       "largePrice": 25,
       "category": "Green",
-      "categoryColor": "00B615",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Green.svg"
+      "categoryColor": "149323",
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Green.svg"
     }
   ],
   "Popular": [
@@ -153,8 +153,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     },
     {
       "id": 2,
@@ -164,8 +164,8 @@
       "largePrice": 25,
       "category": "Energy",
       "categoryColor": "E0B000",
-      "smoothieImgSrc": "src/assets/fruit-images/beetroot.jpg",
-      "categoryImgSrc": "src/assets/svg/Energy.svg"
+      "smoothieImgSrc": "beetroot.jpg",
+      "categoryImgSrc": "Energy.svg"
     }
   ]
 }

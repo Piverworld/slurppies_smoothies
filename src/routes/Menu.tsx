@@ -16,26 +16,21 @@ import Shakes from "../assets/Milkshakes.png";
 import Popular from "../assets/Popular.png";
 import Special from "../assets/Special.png";
 import SmoothiesCup from "../assets/Smoothies.png";
+import PopularData from "../../Json/smoothies.json";
+import SpecialData from "../../Json/smoothies.json";
+import MilkshakeData from "../../Json/smoothies.json";
+import SmoothieData from "../../Json/smoothies.json";
 
 /**
  * A strongly-typed functional component that renders a "Menu" page.
  *
  * @returns A JSX element representing the Menu page.
  */
-import PopularData from "../../Json/smoothies.json";
-import SpecialData from "../../Json/smoothies.json";
-import MilkshakeData from "../../Json/smoothies.json";
-import SmoothieData from "../../Json/smoothies.json";
-import { useMediaQuery } from "react-responsive";
+
 const Menu: React.FC = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
   );
-
-  const isDesktop = useMediaQuery({
-    query: "(min-width): 1024px",
-  });
-
   return (
     <div>
       <Navbar />
