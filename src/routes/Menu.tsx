@@ -26,10 +26,16 @@ import PopularData from "../../Json/smoothies.json";
 import SpecialData from "../../Json/smoothies.json";
 import MilkshakeData from "../../Json/smoothies.json";
 import SmoothieData from "../../Json/smoothies.json";
+import { useMediaQuery } from "react-responsive";
 const Menu: React.FC = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
   );
+
+  const isDesktop = useMediaQuery({
+    query: "(min-width): 1024px",
+  });
+
   return (
     <div>
       <Navbar />
@@ -54,13 +60,13 @@ const Menu: React.FC = () => {
                 />
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious className="hidden 2xl:block" />
-            <CarouselNext className="hidden 2xl:block" />
+            <CarouselPrevious className="hidden" />
+            <CarouselNext className="hidden" />
           </Carousel>
         </div>
       </section>
       <section className="block w-full mb-10">
-        <div className="pl-2 md:pl-4 container max-w-[1440px] mx-auto mb-4">
+        <div className="pl-2 md:pl-4 container max-w-[1440px] mx-auto mb-4 flex flex-row items-center justify-between">
           <div className="flex flex-row gap-1">
             <img
               src={Popular}
@@ -70,11 +76,15 @@ const Menu: React.FC = () => {
               Popular Choice
             </h2>
           </div>
+
+          <p className="text-paragraphtextgray text-[.8rem] lg:text-[1.2rem] pr-3 xl:hidden">
+            Swipe for more
+          </p>
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
             smoothie={PopularData.Popular}
-            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-3/5"
+            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-2/5 "
             smoothieCardStyle="flex flex-row items-center justify-between w-full"
             cardImageStyle="object-cover min-h-[10rem] h-[15rem] w-[22rem]  md:w-[18rem] sm:h-[16rem] lg:h-[15rem] lg:w-[15rem] lg:max-w-[15rem]"
             NavigationAppearance="hidden"
@@ -84,7 +94,7 @@ const Menu: React.FC = () => {
         </div>
       </section>
       <section className="block w-full mb-10">
-        <div className="pl-4 container max-w-[1440px] mx-auto mb-4">
+        <div className="pl-4 container max-w-[1440px] mx-auto mb-4 flex flex-row items-center justify-between">
           <div className="flex flex-row gap-1">
             <img
               src={SmoothiesCup}
@@ -94,6 +104,9 @@ const Menu: React.FC = () => {
               Smoothies
             </h2>
           </div>
+          <p className="text-paragraphtextgray text-[.8rem] lg:text-[1.2rem] pr-3 xl:hidden">
+            Swipe for more
+          </p>
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
@@ -108,7 +121,7 @@ const Menu: React.FC = () => {
         </div>
       </section>
       <section className="block w-full mb-10">
-        <div className="pl-4 container max-w-[1440px] mx-auto mb-4">
+        <div className="pl-4 container max-w-[1440px] mx-auto mb-4 flex flex-row items-center justify-between">
           <div className="flex flex-row gap-1">
             <img
               src={Shakes}
@@ -118,6 +131,10 @@ const Menu: React.FC = () => {
               Milkshakes
             </h2>
           </div>
+
+          <p className="text-paragraphtextgray text-[.8rem] lg:text-[1.2rem] pr-3 xl:hidden">
+            Swipe for more
+          </p>
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
@@ -132,7 +149,7 @@ const Menu: React.FC = () => {
         </div>
       </section>
       <section className="block w-full mb-10">
-        <div className="pl-4 container max-w-[1440px] mx-auto mb-4">
+        <div className="pl-4 container max-w-[1440px] mx-auto mb-4 flex flex-row items-center justify-between">
           <div className="flex flex-row gap-1">
             <img
               src={Special}
@@ -142,6 +159,10 @@ const Menu: React.FC = () => {
               Specials
             </h2>
           </div>
+
+          <p className="text-paragraphtextgray text-[.8rem] lg:text-[1.2rem] pr-3 xl:hidden">
+            Swipe for more
+          </p>
         </div>
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard

@@ -11,13 +11,13 @@ import { Card, CardHeader, CardContent, CardFooter } from "../ui/card";
 interface SmoothieProps {
   smoothie: typeof smoothieData.Smoothies;
   smoothieCardStyle: string;
-  carouselStyle?: string;
+  carouselStyle: string;
   cardImageStyle: string;
   NavigationAppearance: string;
   smoothieCardFooter: string;
   smoothieCardDetails: string;
 }
-const MenuCard = ({
+const MenuCard: React.FC<SmoothieProps> = ({
   carouselStyle,
   smoothieCardStyle,
   cardImageStyle,
@@ -27,7 +27,7 @@ const MenuCard = ({
   smoothieCardDetails,
 }: SmoothieProps) => {
   return (
-    <Carousel className="w-full">
+    <Carousel className="w-full max-w-[1435px]">
       <CarouselContent className="px-3 -ml-4">
         {smoothie.map((smoothies) => (
           <CarouselItem
@@ -50,7 +50,7 @@ const MenuCard = ({
                     className={`text-[#${smoothies.categoryColor}] uppercase tracking-[.0875rem]`}>
                     {smoothies.category}
                   </p>
-                  <h4 className="text-[1.7rem] lg:text-[2rem] font-bold">
+                  <h4 className="text-[1.6rem] lg:text-[2rem] font-bold">
                     {smoothies.name}
                   </h4>
                   <p className="text-[1rem] text-[#787878] font-[400]">
