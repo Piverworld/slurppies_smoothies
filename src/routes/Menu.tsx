@@ -84,7 +84,7 @@ const Menu: React.FC = () => {
             cardImageStyle="object-cover min-h-[10rem] h-[15rem] w-[22rem]  md:w-[18rem] sm:h-[16rem] lg:h-[15rem] lg:w-[15rem] lg:max-w-[15rem]"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
-            smoothieCardFooter="justify-end w-full h-fit px-4 py-1 mt-2"
+            smoothieCardFooter="justify-end w-fit h-fit px-4 py-1 mt-2"
           />
         </div>
       </section>
@@ -107,11 +107,11 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={SmoothieData.Smoothies}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4 pb-3 pr-2"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
-            smoothieCardFooter="justify-end w-full px-0 py-1 mt-2"
+            smoothieCardFooter="justify-end w-fit px-0 py-1 mt-2"
           />
         </div>
       </section>
@@ -139,7 +139,7 @@ const Menu: React.FC = () => {
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
-            smoothieCardFooter="justify-end w-full px-0 py-1 mt-2"
+            smoothieCardFooter="justify-end w-fit px-0 py-1 mt-2"
           />
         </div>
       </section>
@@ -163,11 +163,11 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={SpecialData.Specials}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4 pb-3"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
-            smoothieCardFooter="justify-end w-full px-0 py-1 mt-2"
+            smoothieCardFooter="justify-end w-fit px-0 py-1 mt-2"
           />{" "}
         </div>
       </section>

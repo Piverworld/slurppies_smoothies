@@ -30,7 +30,7 @@ const Navbar = () => {
               <img
                 src={BigLogo}
                 alt="Slurpies Logo"
-                className="object-cover h-20"
+                className="object-cover h-16"
               />
             ) : (
               <img
@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/contact-us"
-            className="flex flex-row gap-1 p-4 m-0 rounded-full cursor-pointer max-md:p-2 text-headingtextblack hover:bg-slurppiespink hover:text-white lg:gap-3 max-md:text-md max-sm:text-sm">
+            className="flex flex-row gap-1 px-4 py-2 m-0 rounded-full cursor-pointer max-md:p-2 text-headingtextblack hover:bg-slurppiespink hover:text-white lg:gap-3 max-md:text-md max-sm:text-sm">
             <img
               src={phone}
               alt="Phone Icon"

@@ -44,7 +44,7 @@ const MenuCard: React.FC<SmoothieProps> = ({
                   className={`${cardImageStyle}`}
                 />
               </CardHeader>
-              <CardContent className="flex flex-col justify-between w-full h-full px-3 py-2 ">
+              <CardContent className="flex flex-row justify-between w-full h-full px-3 py-2 ">
                 <div className={`${smoothieCardDetails}`}>
                   <p
                     className={` uppercase tracking-[.12rem] font-bold`}
@@ -63,7 +63,7 @@ const MenuCard: React.FC<SmoothieProps> = ({
                     <img
                       src={addToCart}
                       alt="Add to Cart Button"
-                      className="h-[2.5rem] md:h-[3.9rem] lg:h-[4rem] cursor-pointer"
+                      className="h-10 cursor-pointer md:h-9 lg:h-10"
                     />
                   </button>
                 </CardFooter>
