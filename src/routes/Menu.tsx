@@ -79,12 +79,12 @@ const Menu: React.FC = () => {
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
             smoothie={PopularData.Popular}
-            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-3/5 max-sm:basis-3/4"
+            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-3/5 max-sm:basis-5/6"
             smoothieCardStyle="flex flex-row items-center justify-between w-full"
             cardImageStyle="object-cover min-h-[10rem] h-[15rem] w-[22rem]  md:w-[18rem] sm:h-[16rem] lg:h-[15rem] lg:w-[15rem] lg:max-w-[15rem]"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
-            smoothieCardFooter="justify-end w-fit h-fit px-4 py-1 mt-2"
+            smoothieCardFooter="justify-end w-fit h-full p-0 px-4 py-1 max-md:px-1 max-md:py-1 mt-2 items-end"
           />
         </div>
       </section>
