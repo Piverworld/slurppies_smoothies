@@ -79,7 +79,7 @@ const Menu: React.FC = () => {
         <div className="container max-w-[1440px] mx-auto">
           <MenuCard
             smoothie={PopularData.Popular}
-            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-2/5 "
+            carouselStyle="flex flex-row lg:basis-1/2 md:basis-1/2 sm:basis-3/5 max-sm:basis-3/4"
             smoothieCardStyle="flex flex-row items-center justify-between w-full"
             cardImageStyle="object-cover min-h-[10rem] h-[15rem] w-[22rem]  md:w-[18rem] sm:h-[16rem] lg:h-[15rem] lg:w-[15rem] lg:max-w-[15rem]"
             NavigationAppearance="hidden"
@@ -107,7 +107,7 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={SmoothieData.Smoothies}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
@@ -135,7 +135,7 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={MilkshakeData.Milkshakes}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 pb-3"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4 pb-3"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"
@@ -163,7 +163,7 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={SpecialData.Specials}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 sm:basis-3/5 max-sm:basis-3/4"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"

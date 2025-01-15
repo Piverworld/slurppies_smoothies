@@ -4,7 +4,8 @@ import sectionStar from "../assets/svg/section_star.svg";
 import MenuIcon from "../assets/svg/menu_icon.svg";
 import BeetrootImg from "/fruit-images/beetroot.jpg";
 import { Link } from "react-router-dom";
-import Green from "/svg/Energy.svg";
+import Energy from "/svg/Energy.svg";
+import Green from "/svg/Green.svg";
 const CheckMenu: React.FC = () => {
   return (
     <section
@@ -25,13 +26,13 @@ const CheckMenu: React.FC = () => {
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
-              <p className="font-bold uppercase text-[#E0B000] text-[.875rem] tracking-[.12rem]">
-                Energy
+              <p className="font-bold uppercase text-[#149323] text-[.875rem] tracking-[.12rem]">
+                Green
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
 
               <div className="text-[#787878]">
-                <p>Watermelon, Beetroot, Banana, Pawpaw</p>
+                <p>Watermelon, Beetroot, Banana, Pawpaw, Milk</p>
               </div>
             </div>
           </div>
@@ -40,7 +41,7 @@ const CheckMenu: React.FC = () => {
               <img src={sectionStar} />
               <p className="font-medium text-slurppiespink">OUR MENU</p>
             </div>
-            <h4 className="font-bold text-[3.5rem] text-headingtextblack text-center max-w-[41rem]">
+            <h4 className="font-bold max-md:text-4xl md:text-4xl lg:text-6xl text-headingtextblack text-center max-w-[41rem]">
               The{" "}
               <span className="text-slurppiespink font-[Pacifico]">Best </span>
               Menu Options
@@ -66,16 +67,16 @@ const CheckMenu: React.FC = () => {
               className="h-[16rem] w-full object-cover align-middle"
             />
             <img
-              src={Green}
+              src={Energy}
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
               <p className="uppercase text-[#E0B000] font-bold text-[.875rem] tracking-[.12rem]">
                 Energy
               </p>
-              <h5 className="text-[2rem] font-[700]">Beetboost</h5>
+              <h5 className="text-[2rem] font-[700]">Oreo Nana</h5>
               <div className="text-[#787878]">
-                <p>Watermelon, Beetroot, Banana, Pawpaw</p>
+                <p>Banana, Oreo, Milk</p>
               </div>
             </div>
           </div>

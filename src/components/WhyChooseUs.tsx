@@ -15,8 +15,8 @@ const WhyChooseUs: React.FC = (): JSX.Element => {
       <Greenery />
       <div className="container max-w-[1440px] mx-auto flex flex-col items-start sm:items-center justify-between">
         <div className="flex flex-row items-center justify-between w-full max-lg:flex max-lg:flex-col max-lg:gap-6 max-sm:flex max-sm:flex-col sm:justify-self-center">
-          <div className="flex flex-col items-start justify-start h-fit max-lg:text-center">
-            <div className="flex flex-row items-center justify-start w-full space-x-2 max-lg:justify-center max-lg:items-center">
+          <div className="flex flex-col items-start justify-start h-fit max-md:gap-4 max-lg:text-center">
+            <div className="flex flex-row items-center justify-start w-full space-x-2 max-md:flex-col max-md:gap-2 max-lg:justify-center max-lg:items-center">
               <img
                 src={sectionStar}
                 alt="Pink Star"

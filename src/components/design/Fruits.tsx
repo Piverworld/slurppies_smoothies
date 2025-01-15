@@ -23,7 +23,7 @@ const Fruits: React.FC<{ position?: string }> = ({ position }): JSX.Element => {
     {
       src: orange,
       alt: "orange",
-      className: "relative top-[0rem] left-[2.7rem]",
+      className: "relative top-[0rem] left-[2.7rem] max-lg:",
     },
     {
       src: leaf,
