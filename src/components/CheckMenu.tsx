@@ -8,12 +8,12 @@ import Green from "/svg/Energy.svg";
 const CheckMenu: React.FC = () => {
   return (
     <section
-      className="block w-full bg-white h-fit py-[11.5rem] px-[15rem] bg-no-repeat bg-center bg-cover"
+      className="block w-full bg-white h-fit max-sm:py-[2rem] max-sm:px-[2.5rem] max-md:py-[3.5rem] max-md:px-[2rem] md:py-[3.5rem] md:px-[2rem] lg:py-[8rem] lg:px-[2.5rem] bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${menuBg})` }}>
-      <div className="container max-w-[1440px] mx-auto grid grid-cols-3 h-fit ">
-        <div className="grid gap-[6rem] col-span-full items-center">
+      <div className="container max-w-[1440px] mx-auto h-fit ">
+        <div className="grid items-center max-lg:justify-center max-lg:col-span-1 max-lg:row-span-3 lg:col-span-3 max-sm:gap-6 max-md:gap-6 md:gap-2 lg:gap-6">
           <div
-            className="col-start-1 rounded-[1rem] overflow-hidden h-fit"
+            className="max-lg:row-start-2 lg:col-start-1 rounded-[1rem] overflow-hidden h-fit"
             id="Card">
             <img
               src={BeetrootImg}
@@ -25,7 +25,7 @@ const CheckMenu: React.FC = () => {
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
-              <p className="font-normal uppercase text-[#E0B000] text-[.875rem] tracking-[.12rem]">
+              <p className="font-bold uppercase text-[#E0B000] text-[.875rem] tracking-[.12rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>
@@ -35,7 +35,7 @@ const CheckMenu: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-start-2 flex flex-col items-center justify-center gap-[1rem] text-center">
+          <div className="max-lg:row-start-1 lg:col-start-2 flex flex-col items-center justify-center gap-[1rem] max-md:max-w-[32rem]  md:max-w-[42rem] lg:max-w-[24rem] xl:max-w-[32rem] text-center justify-self-center">
             <div className="flex flex-col items-center justify-center">
               <img src={sectionStar} />
               <p className="font-medium text-slurppiespink">OUR MENU</p>
@@ -58,7 +58,7 @@ const CheckMenu: React.FC = () => {
             </Link>
           </div>
           <div
-            className="col-start-3 rounded-[1rem] overflow-hidden h-fit"
+            className="max-lg:row-start-3 lg:col-start-3 rounded-[1rem] overflow-hidden h-fit"
             id="Card">
             <img
               src={BeetrootImg}
@@ -70,7 +70,7 @@ const CheckMenu: React.FC = () => {
               className="relative -top-[14.85rem] left-[.85rem]"
             />
             <div className="bg-white px-[1.5rem] py-[0.75rem] flex flex-col items-start justify-center gap-[0.15rem] -mt-[2.08rem]">
-              <p className="font-normal uppercase text-[#E0B000] font-bold text-[.875rem] tracking-[.12rem]">
+              <p className="uppercase text-[#E0B000] font-bold text-[.875rem] tracking-[.12rem]">
                 Energy
               </p>
               <h5 className="text-[2rem] font-[700]">Beetboost</h5>

@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed z-20 flex items-center justify-center w-full h-24 mx-autosm:px-8">
-      <div className="max-w-[1440px] w-full ">
+      <div className="max-w-[1440px] w-full md:px-4 max-md:px-2">
         <nav className="flex items-center justify-between w-full h-full px-4 mt-1 space-x-4 bg-white rounded-full shadow-md">
           <Link
             to="/menu"
@@ -24,7 +24,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/"
-            className="cursor-pointer">
+            className="cursor-pointer max-sm:py-2">
             {isDesktop ? (
               <img
                 src={BigLogo}

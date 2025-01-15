@@ -34,7 +34,7 @@ const Menu: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <section className="block w-full mb-5 h-fit">
+      <section className="block w-full mb-5 max-sm:pt-20 sm:pt-20 lg:pt-24 h-fit">
         <div className="container max-w-[1440px] mx-auto">
           <Carousel
             plugins={[plugin.current]}
@@ -135,7 +135,7 @@ const Menu: React.FC = () => {
           <MenuCard
             smoothie={MilkshakeData.Milkshakes}
             smoothieCardStyle="flex flex-col w-full h-full pb-2"
-            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5"
+            carouselStyle="flex flex-row sm:basis-3/6 lg:basis-2/6 md:basis-2/5 pb-3"
             cardImageStyle="h-[15rem] object-cover object-center"
             NavigationAppearance="hidden"
             smoothieCardDetails="h-full"

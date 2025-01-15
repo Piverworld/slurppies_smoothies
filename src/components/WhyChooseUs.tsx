@@ -11,12 +11,12 @@ import GreenArrow from "../assets/svg/Arrow 6.svg";
  */
 const WhyChooseUs: React.FC = (): JSX.Element => {
   return (
-    <section className="block w-full bg-gray-50 h-fit py-[4.5rem] px-[15rem]">
+    <section className="block w-full bg-gray-50 h-fit max-sm:py-[2rem] max-sm:px-[2.5rem] md:py-[3.5rem] md:px-[2rem] max-md:py-[3.5rem] max-md:px-[2rem] lg:py-[8rem] lg:px-[2.5rem] overflow-hidden">
       <Greenery />
-      <div className="container max-w-[1440px] mx-auto flex flex-col items-start justify-between">
-        <div className="flex flex-row items-center justify-between w-full">
-          <div className="flex flex-col items-start justify-start h-fit">
-            <div className="flex flex-row items-center justify-center space-x-2">
+      <div className="container max-w-[1440px] mx-auto flex flex-col items-start sm:items-center justify-between">
+        <div className="flex flex-row items-center justify-between w-full max-lg:flex max-lg:flex-col max-lg:gap-6 max-sm:flex max-sm:flex-col sm:justify-self-center">
+          <div className="flex flex-col items-start justify-start h-fit max-lg:text-center">
+            <div className="flex flex-row items-center justify-start w-full space-x-2 max-lg:justify-center max-lg:items-center">
               <img
                 src={sectionStar}
                 alt="Pink Star"
@@ -25,8 +25,8 @@ const WhyChooseUs: React.FC = (): JSX.Element => {
                 WHY CHOOSE SLURPPIES
               </p>
             </div>
-            <div className="">
-              <h2 className="font-bold text-[3.5rem] text-headingtextblack max-w-[41rem]">
+            <div className="max-lg:max-w-md lg:max-w-3xl">
+              <h2 className="font-bold max-md:text-4xl md:text-4xl lg:text-6xl text-headingtextblack">
                 From first sip to the last,{" "}
                 <span className="text-slurppiespink font-[Pacifico]">
                   You will love it
@@ -34,16 +34,16 @@ const WhyChooseUs: React.FC = (): JSX.Element => {
               </h2>
             </div>
           </div>
-          <div className=" max-w-[26rem] font-">
-            <p className="text-paragraphtextgray max-w-[26rem]">
+          <div className="max-w-[26rem] max-lg:max-w-xl sm:text-lg lg:text-xl max-lg:text-center">
+            <p className="text-paragraphtextgray">
               Discover the perfect blend of nature’s finest fruits in every
               refreshing sip. Your daily dose of happiness and great health in a
               glass.
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-between w-full lg:flex-row sm:flex-col-reverse">
-          <div className="flex flex-col items-start justify-center max-w-[26rem] h-fit">
+        <div className="flex items-center justify-between w-full h-fit lg:flex-row max-sm:flex-col sm:flex-col">
+          <div className="flex flex-col items-start justify-center max-w-sm max-lg:max-w-full max-lg:flex max-lg:flex-row max-sm:flex-col h-fit">
             <div className="p-8 ">
               <h4 className="font-bold text-[1.5rem] text-headingtextblack">
                 People's Choice
@@ -65,30 +65,33 @@ const WhyChooseUs: React.FC = (): JSX.Element => {
               </p>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative p-8">
             <img
               src={strawberryGlass}
               alt="A glass of strawberry smoothie"
+              className=""
             />
-            <div className="absolute -right-16 top-10">
+            <div className="absolute right-0 max-sm:-right-4 top-10">
               <img
                 src={PinkArrow}
                 alt="A pink coloured Arrow"
+                className="max-sm:h-16 max-sm:w-16"
               />
-              <span className="absolute -top-[2.7rem] -right-4 font-[Caveat] font-bold text-[1.7rem] text-slurppiespink rotate-[19deg]">
+              <span className="absolute -top-[2.7rem] -right-4 font-[Caveat] font-bold max-sm:text-lg max-md:text-xl text-[1.25rem] text-slurppiespink rotate-[19deg]">
                 Great Taste
               </span>
             </div>
-            <div className="absolute left-0 bottom-10">
+            <div className="absolute left-0 max-sm:left-8 max-sm:bottom-8 bottom-10">
               <img
                 src={GreenArrow}
                 alt="A green coloured Arrow"
+                className="max-sm:h-16 max-sm:w-16"
               />
-              <span
+              <p
                 className="absolute right-0
-             font-[Caveat] font-bold text-[1.25rem] text-center text-[#387E32]">
+             font-[Caveat] font-bold max-sm:text-lg max-md:text-xl text-[1.25rem] text-center text-[#387E32] w-max">
                 100% Natural Fruits
-              </span>
+              </p>
             </div>
           </div>
         </div>
